@@ -1,0 +1,169 @@
+.div-display-none{
+    display: none;
+    text-align: center;
+}
+
+.alinhaitems {
+    align-items: center;
+}
+
+.botao{
+    background-color: #2473c2;
+}
+
+#login-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botao-assinar {
+    width: 100%;
+    background-color: #2473c2;
+}
+
+#planos, #banners {
+    width: 90%;
+    margin: 1.2em auto;
+}
+
+.banner button{
+    display: flex;
+    margin: 0.3em auto;
+    border: none;
+}
+
+.banner p {
+    text-align: center;
+    color: #0070ae;
+    font-size: 1.6em;
+}
+
+.footer{
+    background-color:#2473c2 ;
+    height: 100%;
+
+}
+
+.footer p,span,address{
+    color: white;
+
+}
+
+.footer p{
+    text-align: center;
+}
+
+.footer-span-adress span{
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+
+header{
+    background-image: url("/assets/background-banner.jpg");
+    background-size: 100% 200% ;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+
+#logos {
+    margin: 20px 0px 0px 40px;
+}
+
+.logo {
+    display: flex;
+    width: 70%;
+    margin: 1.6em auto;
+}
+
+#h1-amanhã{
+    text-align: center;
+    color: #2473c2;
+    margin-top: 1.2em;
+
+}
+
+#h5-patamar{
+    text-align: center;
+    color: #669541;
+    margin-top: 1.2em;
+}
+
+#playStore{
+   width: 15%; 
+}
+
+#appleStore{
+    width: 13%;
+}
+
+h4 {
+    color: #0070ae;
+}
+
+/*  CSS PARA O MENU LATERAL EMPURRAR O CONTEÚDO*/
+
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #2473c2; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f0f0f0;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #c3bebe;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+    position:absolute;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #2473c2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 0 8px;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}

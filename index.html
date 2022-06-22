@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Business Digital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <!--Header com Loogo, login e botão de compra-->
+    <!--Menu lateral com opções que eram do footer-->
+    <div id="mySidebar" class = "sidebar">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <a href="https://rbvideo.com.br/compromisso.asp">Compromisso Rural Business</a>
+        <a href="encurtador.com.br/fmpuM">Atendimento Online</a> 
+        <a href="https://rbvideo.com.br/assinar.asp">Quero Assinar</a> 
+        <a href="https://rbvideo.com.br/assinar-corporativo.asp">Planos Corporativos</a>
+        <a href="https://rbvideo.com.br/licenca-uso.asp">Contrato Licença de Uso</a>
+        <a href="https://ruralbusiness.com.br/default.asp?p=politicas-cookies.asp">Políticas de Cookies</a>
+        <a href="https://ruralbusiness.com.br/">Institucional</a>
+
+    </div>
+    
+    <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+
+    <!--Conteúdo "empurrado" pelo menu-->
+
+    <div id="main">
+        <header>
+            <div class="row main">
+                <div id="logos" class="col">
+                    <img class = "logo" src="./assets/logo.png" alt="Rural Business 30 anos">
+                </div>
+        
+                <div class="col alinhaitems">
+                              
+                </div>
+
+                <div class="col alinhaitems">
+                    <div class="row">
+                        <div id="login-container" class="col-md">
+                            <button id="login" type="button" class="btn btn-primary botao">Login</button>                        
+                        </div>
+                        <div class="col-md-7">
+                            <a href="https://rbvideo.com.br/assinar.asp"><button type="button" class="btn btn-primary botao">Assine Já | R$9,90/Mês.</button>       </a>
+                                              
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </header>    
+
+        <!-- Banners que quando acionados puxam suas div's display none-->
+        <div  id= "banners" class = "row main">
+            <h5 id="h5-patamar">ESTAMOS MUDANDO O PATAMAR DE CONHECIMENTO DE MERCADO PARA QUEM OPERA COM SOJA, MILHO E PECUÁRIA NO BRASIL!</h5>
+            <div class="col banner">
+                
+                <button id = "button-diferenca"><img src="/assets/icone-empresa.png"></button>
+                <p>A diferença de uma agência de informações estratégicas para o agronegócio!</p>
+            </div>
+            <div class="col banner">
+                
+                <button  id = "button-assista"><img src="/assets/icone-assista.png"></button> 
+                <p>Assista a qualquer momento, a qualquer lugar</p>
+            </div>
+            <div class="col banner">
+                
+                <button id = "button-planos"><img src="/assets/icone-planos.png"></button>  
+                <p>Planos</p>
+            </div>
+        </div>
+        <hr>
+        <!--Só aparece quando a função é chamada-->
+        <!--Vem com display none default quando o JS é executado puxa a div id diferenca/assista/planos-->
+        <div class="div-display-none main" id="diferenca">
+            <h4>Entregamos velocidade e assertividade para os profissionais do mercado de grãos e pecuária</h4>
+            <p>Em 1990 a RURAL BUSINESS surgiu se posicionando como a primeira agência provedora de informações estratégicas para o Agronegócio, com o objetivo de olhar de forma investigativa e profissional o dia a dia do mercado físico de grãos e de carnes - no Brasil e no mundo.
+                Mercados que durante décadas foram e estão sendo bombardeadas diariamente com informações longe da realidade ou sem uma investigação profissional para que se possa ver o que de fato está acontecendo e pode vir acontece no curto, médio e longo prazo.
+                Foi com esta visão, de sempre investigar a verdade por trás dos boatos, que denunciamos a farsa dos embargos às exportações de carne bovina do Brasil em 2005, que abalou o mercado pecuário do país, por conta da descoberta de um foco de febre aftosa.
+                
+                Enquanto a grande mídia falava em caos para o comércio internacional do país, envolvida numa teia de informação muito bem articulada por grandes frigoríficos e governo, a RURAL BUSINESS alertava que tudo não passava de pura pressão, a fim de derrubar os preços da arroba e garantir maior lucro para as empresas.
+                
+                A mentira aos poucos foi vindo à tona, com os resultados de exportação confirmando recordes sequentes de vendas para o país, jogando por terra à história de que 60 países teriam embargado a entrada de produto brasileiro em seu território.
+            </p>
+            <img src="/assets/exportacao-carne.jpg" alt="Exportação Carne">
+            <p>Em 2017 a RURAL BUSINESS se posicionou a partir do primeiro dia da chamada OPERAÇÃO CARNE FRACA que investiga corruptos e corruptores no mercado de carnes no Brasil e após as denuncias do maior escândalo de corrupção do mundo com as delações da cúpula da JBS que as exportações de carne bovina no Brasil ao contrario do que dizia a mídia não seriam afetadas e mais uma vez a RURAL BUSINESS estava certa já que novos recordes de exportação do produto foram quebrados.       
+
+                O mesmo acontece com o setor agrícola, com a Equipe de Grãos da RURAL BUSINESS se posicionando firmemente e alertando produtores e demais agentes para as manobras envolvendo dados fictícios de oferta, demanda e estoques de passagem, tanto para o Brasil como para outros grandes países, como Estados Unidos, com o único objetivo de derrubar os preços no mercado físico.
+                
+                Foi assim que em meados deste ano de 2017 alertamos aos produtores de milho: Segurem a oferta que os preços vão subir!
+                Assumindo os riscos, a RURAL BUSINESS mostrou, através de muita investigação, que as exportações romperiam todos as expectativas, virando o mercado do avesso no último trimestre do ano.
+                E foi justamente o que aconteceu, tirando os produtores do prejuízo para o lucro!</p>
+                <img src="/assets/milho-media.jpg" alt="Média do Milho">
+                <p>O mercado do milho assistiu a uma das mais espetaculares escaladas de recuperação de todos os tempos, comemorando alta de 30% em apenas 3 meses. Em algumas praças, como Goiás, os produtores venderam cada saca de milho por valor 42% acima das mínimas de julho, garantindo 7,50 reais a mais no seu bolso.
+
+                    Nestes 26 anos de atuação o maior propósito da RURAL BUSINESS foi [e continua sendo] tirar “o chão” do agronegócio brasileiro da inocência mercadológica, a fim de reduzir riscos e aumentar as chances de lucro.
+                    Temos como grande objetivo “antecipar o amanhã do agronegócio, hoje”, como bem diz nossa campanha publicitaria nas mídias sócias, emissoras de TV e revistas.
+                    
+                    Com total imparcialidade, amplo pacote diário de informação profissional e muito trabalho investigativo, a RURAL BUSINESS garante aos seus assinantes ferramentas que de fato ampliam a capacidade de prever movimentos futuros, separar boatos dos fatos, para que em tempo hábil para agir, operadores deste mercado evitem prejuízos.
+                    
+                    Esse é o compromisso que temos com os nossos assinantes há mais de 27 anos!</p>
+        </div>
+
+        <div class="div-display-none main" id="assista">
+            <p>Acesse do seu smartphone , tablet, Smart TV ou do seu computador o endereço rbvideo.com.br e assista diariamente as analises inéditas dos mercados da soja, milho e do boi gordo. São analises que podem de fato aumentar a sua capacidade de prever os movimentos de alta ou de baixa desses mercados.
+                Suportamos as versões dos seguintes navegadores: * Chrome - V40.0 ou posterior * FireFox - V34.0.5 ou posterior * Internet Explorer - 10 ou superior * Safari (MAC/iOS) - 7 ou posterior * Opera - V26 ou posterior</p>
+                <iframe src="https://player.vimeo.com/video/420419177" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" class="embed-responsive-item"></iframe>
+                <a href="https://play.google.com/store/apps/details?id=br.com.rbvideo.rbvideo&hl=pt_BR"><img id="playStore" src="/assets/logo-playStore.png" alt="PlaySotre"></a>
+                <a href="https://play.google.com/store/apps/details?id=br.com.rbvideo.rbvideo&hl=pt_BR"><img id= "appleStore"src="/assets/logo-appleStore.png" alt="PlaySotre"></a>
+            </div>
+        <div class="div-display-none main" id="planos">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Básico</th>
+                    <th scope="col">TOP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Preço mensal</th>
+                        <td>R$9,90</td>
+                        <td>R$19,90</td>                    
+                    </tr>
+                    <tr>
+                        <th scope="row ">Assista as anadivses diárias de mercado de sua preferência no seu Smartphone, Tablet, TV ou computador</th>
+                        <td><img src="/assets/check.svg" alt="SIM" class="src"></td>
+                        <td><img src="/assets/check.svg" alt="SIM" class="src"></td>                    
+                    </tr>
+                    <tr>
+                        <th scope="row">Gráficos</th>
+                        <td><img src="/assets/closed.svg" alt="NÃO" class="src"></td>
+                        <td><img src="/assets/check.svg" alt="SIM" class="src"></td>
+                    
+                    </tr>
+                    <tr>
+                        <th scope="row">Acompanhamento diário dos 3 mercados (Soja,Milho e Boi) </th>
+                        <td><img src="/assets/closed.svg" alt="NÃO" class="src"></td>
+                        <td><img src="/assets/check.svg" alt="SIM" class="src"></td>
+                    
+                    </tr>
+                    <tr>
+                        <th scope="row">Cancele quando quiser</th>
+                        <td><img src="/assets/check.svg" alt="SIM" class="src"></td>
+                        <td><img src="/assets/check.svg" alt="SIM" class="src"></td>                    
+                    </tr>                
+                    <tr>
+                        <th scope="row">Preços promocionais por tempo divmitado</th>                    
+                        <td colspan="2">
+                            <a href="https://rbvideo.com.br/assinar.asp" type="button" class="btn btn-primary botao-assinar">Assinar</a>
+                        </td>                              
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div> 
+        
+    </div>
+    <footer class="main footer"> 
+        
+
+            
+            
+            
+          
+            <address>Avenida Primeiro de Maio, 620 - Campo Grande (MS)</address>
+            <span class="footer-span-adress">Conforme estabelecido em contrato, erros, atrasos ou inexatidões, não poderão servir como base para reclamações ou ações judiciais.</span>
+            <p>Rural Business - Copyright © 2021</p>
+            <p>Todos os direitos reservados. Republicação ou redistribuição do conteúdo produzido pela Rural Business é expressamente proibido sem autorização prévia por escrito.</p>
+    </footer>
+    <script src="/index.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
